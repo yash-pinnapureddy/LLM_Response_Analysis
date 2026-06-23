@@ -27,7 +27,3 @@ streamlit run app.py
 
 ## Formula
 confidence = mean(exp(logprob))
-
-## Notes
-- Confidence ≠ correctness
-- Used for ranking, filtering, guardrails
