@@ -1,5 +1,33 @@
-# LLM-Analytics-Playground
+# LLM Confidence Analyzer
+
+## Features
+- Confidence Score (logprobs)
+- Token Analysis
+- Embeddings
+- Retry handling
+- Best-of-N selection
+- Streamlit UI + CLI
+
+## Run
+
+```bash
 pip install -r requirements.txt
-export OPENAI_API_KEY=your_key
-python embeddings.py
+cp .env.example .env
+```
+
+## CLI
+```bash
+python main.py --prompt "Explain AI"
+```
+
+## UI
+```bash
 streamlit run app.py
+```
+
+## Formula
+confidence = mean(exp(logprob))
+
+## Notes
+- Confidence ≠ correctness
+- Used for ranking, filtering, guardrails

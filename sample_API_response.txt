@@ -1,0 +1,115 @@
+{
+  "id": "chatcmpl-xyz123",
+  "object": "chat.completion",
+  "created": 1710000000,
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I am here to help you with your questions."
+      },
+      "finish_reason": "stop",
+      "logprobs": {
+        "content": [
+          {
+            "token": "I",
+            "logprob": -0.01,
+            "top_logprobs": [
+              {"token": "I", "logprob": -0.01},
+              {"token": "We", "logprob": -2.5},
+              {"token": "It", "logprob": -3.2}
+            ]
+          },
+          {
+            "token": " am",
+            "logprob": -0.02,
+            "top_logprobs": [
+              {"token": " am", "logprob": -0.02},
+              {"token": " was", "logprob": -3.0},
+              {"token": " will", "logprob": -3.4}
+            ]
+          },
+          {
+            "token": " here",
+            "logprob": -0.05,
+            "top_logprobs": [
+              {"token": " here", "logprob": -0.05},
+              {"token": " ready", "logprob": -2.1},
+              {"token": " available", "logprob": -2.9}
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -0.01,
+            "top_logprobs": [
+              {"token": " to", "logprob": -0.01},
+              {"token": " and", "logprob": -3.0},
+              {"token": " for", "logprob": -3.5}
+            ]
+          },
+          {
+            "token": " help",
+            "logprob": -0.03,
+            "top_logprobs": [
+              {"token": " help", "logprob": -0.03},
+              {"token": " assist", "logprob": -1.8},
+              {"token": " guide", "logprob": -2.4}
+            ]
+          },
+          {
+            "token": " you",
+            "logprob": -0.02,
+            "top_logprobs": [
+              {"token": " you", "logprob": -0.02},
+              {"token": " everyone", "logprob": -2.8},
+              {"token": " users", "logprob": -3.1}
+            ]
+          },
+          {
+            "token": " with",
+            "logprob": -0.02,
+            "top_logprobs": [
+              {"token": " with", "logprob": -0.02},
+              {"token": " on", "logprob": -2.5},
+              {"token": " about", "logprob": -3.0}
+            ]
+          },
+          {
+            "token": " your",
+            "logprob": -0.01,
+            "top_logprobs": [
+              {"token": " your", "logprob": -0.01},
+              {"token": " the", "logprob": -2.6},
+              {"token": " my", "logprob": -3.2}
+            ]
+          },
+          {
+            "token": " questions",
+            "logprob": -0.04,
+            "top_logprobs": [
+              {"token": " questions", "logprob": -0.04},
+              {"token": " queries", "logprob": -2.0},
+              {"token": " requests", "logprob": -2.7}
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.01,
+            "top_logprobs": [
+              {"token": ".", "logprob": -0.01},
+              {"token": "!", "logprob": -3.5},
+              {"token": "🙂", "logprob": -4.0}
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 10,
+    "total_tokens": 16
+  }
+}
